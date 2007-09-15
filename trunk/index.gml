@@ -35,7 +35,7 @@
        // only exists in IE, only needed in IE 
        document.namespaces.add("v", "urn:schemas-microsoft-com:vml");     }     
     
-       var myTMap = google.mashups.getObjectById('worldMap').getMap();          setMap(myMap);     
+       var myTMap = google.mashups.getObjectById('myMap').getMap();          setMap(myMap);     
    }
     function setMap(map) {
      map.enableDoubleClickZoom();
