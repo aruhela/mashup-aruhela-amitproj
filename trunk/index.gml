@@ -28,8 +28,15 @@
   
   <script type="text/javascript">
 <![CDATA[
-     setMap(myMap);
+     
+    function onLoadf() {  
+     if (document.namespaces) 
+     { 
+       // only exists in IE, only needed in IE 
+       document.namespaces.add("v", "urn:schemas-microsoft-com:vml");     }     
     
+       setMap(myMap);     
+   }
     function setMap(map) {
      map.enableDoubleClickZoom();
      map.enableContinuousZoom();
