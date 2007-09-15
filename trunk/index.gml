@@ -54,7 +54,7 @@
       <b><gm:text ref="atom:title"/></b><br/>
       <gm:text ref="geo:lat"/><br/>
       <gm:text ref="geo:long"/>
-      <gm:labels ref=" atom:label"/>
+      <gm:labels ref="atom:label"/>
      <gm:image ref="atom:image" style="margin-right:5px" width="100" height="100" />    </div>
   </gm:template>
 
