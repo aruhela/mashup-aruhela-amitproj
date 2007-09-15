@@ -1,4 +1,4 @@
-<gm:page title="Mashup" css="/css/g.css" class="googleTheme">
+<gm:page title="Mashup" css="/css/g.css" class="googleTheme" onload="onLoadf()">
 
     <!--    -->
 
