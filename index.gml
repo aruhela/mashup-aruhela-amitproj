@@ -19,7 +19,7 @@
         </gm:list>
       </td>
       <td class="mainPanel">
-        <gm:map id="myMap" zoom="15" maptypes="true" height="500px" data="${myList}" latref="geo:lat" lngref="geo:long" infotemplate="detailTemplate" >
+        <gm:map id="myMap" zoom="17" control="large"maptypes="true" height="500px" data="${myList}" latref="geo:lat" lngref="geo:long" infotemplate="detailTemplate" >
           <gm:handleEvent src="myList" event="select"/>
         </gm:map>
       </td>
