@@ -25,6 +25,17 @@
       </td>
     </tr>    
   </table>
+  
+  <script type="text/javascript">
+<![CDATA[
+     setMap(myMap);
+    
+    function setMap(map) {
+     map.enableDoubleClickZoom();
+     map.enableContinuousZoom();
+     map.setMapType(G_HYBRID_MAP);
+   }
+]]></script>
 
   <gm:template id="detailTemplate">
     <div repeat="true">
