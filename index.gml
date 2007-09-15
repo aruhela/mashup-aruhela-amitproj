@@ -14,7 +14,7 @@
   <table width="900">
     <tr valign="top">
       <td width="300">
-        <gm:list id="myList" data="http://aruhela.googlepages.com/amit5.xml" pagesize="10">
+        <gm:list id="myList" data="http://aruhela.googlepages.com/amit6.xml" pagesize="10">
           <gm:handleEvent src="myMap" event="select"/>          
         </gm:list>
       </td>
