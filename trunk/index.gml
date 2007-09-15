@@ -14,9 +14,11 @@
   <table width="900">
     <tr valign="top">
       <td width="300">
+     <div style="float: left; width: 50%">    
         <gm:list id="myList" data="http://aruhela.googlepages.com/amit6.xml" pagesize="9">
           <gm:handleEvent src="myMap" event="select"/>          
         </gm:list>
+    </div>
       </td>
       <td class="mainPanel">
         <gm:map id="myMap" zoom="17" control="large" maptypes="true" height="500px" data="${myList}" latref="geo:lat" lngref="geo:long" infotemplate="detailTemplate" >
