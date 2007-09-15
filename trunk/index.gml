@@ -14,12 +14,12 @@
   <table width="900">
     <tr valign="top">
       <td width="300">
-        <gm:list id="myList" data="http://aruhela.googlepages.com/amit3.xml" pagesize="1">
+        <gm:list id="myList" data="http://aruhela.googlepages.com/amit4.xml" pagesize="4">
           <gm:handleEvent src="myMap" event="select"/>          
         </gm:list>
       </td>
       <td class="mainPanel">
-        <gm:map id="myMap" zoom="0" maptypes="true" height="500px" data="${myList}" latref="geo:lat" lngref="geo:long" >
+        <gm:map id="myMap" zoom="0" maptypes="true" height="500px" data="${myList}" latref="geo:lat" lngref="geo:long" infotemplate="detailTemplate" >
           <gm:handleEvent src="myList" event="select"/>
         </gm:map>
       </td>
