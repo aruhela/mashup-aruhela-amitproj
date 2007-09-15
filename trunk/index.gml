@@ -14,15 +14,15 @@
   <table width="900">
     <tr valign="top">
       <td width="300">
-     <div style="float: left; width: 20%">    
+     <div style="float: left; width: 40%">    
         <gm:list id="myList" data="http://aruhela.googlepages.com/amit6.xml" pagesize="9">
           <gm:handleEvent src="myMap" event="select"/>          
         </gm:list>
     </div>
       </td>
       <td class="mainPanel">
-        <div style="float: left; width: 80%">   
-        <gm:map id="myMap" zoom="17" control="large" maptypes="true" height="500px" data="${myList}" latref="geo:lat" lngref="geo:long" infotemplate="detailTemplate" >
+        <div style="float: left; width: 60%">   
+        <gm:map id="myMap" zoom="12" control="large" maptypes="true" height="500px" data="${myList}" latref="geo:lat" lngref="geo:long" infotemplate="detailTemplate" >
           <gm:handleEvent src="myList" event="select"/>
         </gm:map>
         </div>
@@ -54,6 +54,7 @@
       <b><gm:text ref="atom:title"/></b><br/>
       <gm:text ref="geo:lat"/><br/>
       <gm:text ref="geo:long"/>
+      <gm:labels ref="IIT Delhi"/>
     </div>
   </gm:template>
 
