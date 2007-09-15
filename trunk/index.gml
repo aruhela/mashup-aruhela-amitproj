@@ -15,7 +15,7 @@
     <tr valign="top">
       <td width="300">
      <div style="float: left; width: 50%">    
-        <gm:list id="myList" data="http://aruhela.googlepages.com/amit6.xml" pagesize="9">
+        <gm:list id="myList" data="http://aruhela.googlepages.com/amit7.xml" pagesize="9">
           <gm:handleEvent src="myMap" event="select"/>          
         </gm:list>
     </div>
@@ -54,9 +54,8 @@
       <b><gm:text ref="atom:title"/></b><br/>
       <gm:text ref="geo:lat"/><br/>
       <gm:text ref="geo:long"/>
-      <gm:labels ref="IIT Delhi"/>
-      
-<gm:image ref="http://aruhela.googlepages.com/insti.gif" style="margin-right:5px" width="10" height="10" />    </div>
+      <gm:labels ref="atom:label"/>
+     <gm:image ref="atom:image" style="margin-right:5px" width="10" height="10" />    </div>
   </gm:template>
 
 </gm:page>
