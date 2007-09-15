@@ -26,7 +26,7 @@
     </tr>    
   </table>
   
-  <script type="text/javascript">
+<script type="text/javascript">
 <![CDATA[
      
     function onLoadf() {  
@@ -35,7 +35,7 @@
        // only exists in IE, only needed in IE 
        document.namespaces.add("v", "urn:schemas-microsoft-com:vml");     }     
     
-       setMap(myMap);     
+       var myTMap = google.mashups.getObjectById('worldMap').getMap();          setMap(myMap);     
    }
     function setMap(map) {
      map.enableDoubleClickZoom();
